@@ -116,7 +116,7 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
 
 
 - (void)updateButton:(UIButton *)button title:(NSString *)title {
-    [self updateButton:button title:title font:[UIFont systemFontOfSize:12.f]];
+    [self updateButton:button title:title font:[UIFont systemFontOfSize:10.f]];
 }
 
 - (void)updateButton:(UIButton *)button title:(NSString *)title font:(UIFont *)font {
