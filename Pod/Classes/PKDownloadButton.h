@@ -44,7 +44,7 @@ IB_DESIGNABLE
 
 @property (nonatomic, assign) PKDownloadButtonState state;
 
-@property (nonatomic, assign) NSString data;
+@property (nonatomic, assign) NSString *data;
 
 -(void)updateStartDownloadButtonText:(NSString *)title;
 -(void)updateDownloadedButtonText:(NSString *)title;
