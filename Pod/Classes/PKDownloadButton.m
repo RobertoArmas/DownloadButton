@@ -128,6 +128,7 @@ static PKDownloadButton *CommonInit(PKDownloadButton *self) {
     [button setTitleColor:self.tintColor forState:UIControlStateNormal];
     [button setTitleColor:UIColor.whiteColor forState:UIControlStateHighlighted];
     
+    button.font = font;
     button.titleLabel.font = font;
 }
 
